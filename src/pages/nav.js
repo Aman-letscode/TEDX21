@@ -61,7 +61,7 @@ const Navigation = () => {
         <Link to="/" className="flex items-center" >
           <img
             src="https://i.ibb.co/cQ74yqz/logo-white.png"
-            className="h-8 mr-3"
+            className="h-8 mr-2"
             alt="TedxWCE Logo"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
