@@ -42,13 +42,7 @@ const Team = () => {
   imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034927/TedXFILES/kfq2bdd35zcajmuljwkq.jpg"
 />
 
-<TeamMemberInfo
-  name="Shaifali Sonvane"
-  position="Web Developer"
-  linkedin="https://www.linkedin.com/in/johndoe"
-  twitter="https://twitter.com/johndoe"
-  imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034932/TedXFILES/uhcnrjvkxwliihu3gzih.jpg"
-/>
+
 
 <TeamMemberInfo
   name="Anil Surve"
