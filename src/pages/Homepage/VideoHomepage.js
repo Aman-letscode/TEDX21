@@ -11,7 +11,6 @@ const VideoHomepage = () => {
           type="video/mp4"
           autoPlay
           muted
-          controls
           loop
         ></video>
       </div>
