@@ -18,7 +18,7 @@ const Team = () => {
       
       <TeamMemberInfo
   name="Sakshi Deshmukh"
-  position=""
+  position="Licensee and Organiser"
   linkedin="https://www.linkedin.com/in/johndoe"
   twitter="https://twitter.com/johndoe"
   imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034910/TedXFILES/hw9pvmnballpt4v2ds7u.jpg"
@@ -27,7 +27,7 @@ const Team = () => {
 
 <TeamMemberInfo
   name="Pratap Shingane"
-  position="Web Developer"
+  position="Organiser"
   linkedin="https://www.linkedin.com/in/johndoe"
   twitter="https://twitter.com/johndoe"
   imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034918/TedXFILES/sby83l5wtdvu0lm7wnqd.jpg"
@@ -36,7 +36,7 @@ const Team = () => {
 
 <TeamMemberInfo
   name="Swayambhu Hingane"
-  position="Web Developer"
+  position="Outreach Lead"
   linkedin="https://www.linkedin.com/in/johndoe"
   twitter="https://twitter.com/johndoe"
   imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034927/TedXFILES/kfq2bdd35zcajmuljwkq.jpg"
@@ -46,7 +46,7 @@ const Team = () => {
 
 <TeamMemberInfo
   name="Anil Surve"
-  position="Web Developer"
+  position="Associate Dean (Student Activity and Development)"
   linkedin="https://www.linkedin.com/in/johndoe"
   twitter="https://twitter.com/johndoe"
   imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034939/TedXFILES/attmwrp0cdqtplvyrzug.jpg"
@@ -54,7 +54,7 @@ const Team = () => {
 
 <TeamMemberInfo
   name="Sanjay Dhaygude"
-  position="Web Developer"
+  position="Dean (Corporate Relations, Alumni and Student Carriers)"
   linkedin="https://www.linkedin.com/in/johndoe"
   twitter="https://twitter.com/johndoe"
   imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034945/TedXFILES/e700bp6cnjtvwoskllmb.jpg"
