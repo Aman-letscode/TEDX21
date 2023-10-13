@@ -1,7 +1,8 @@
 import React from 'react';
+import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const speakercard = (props) => {
-  const { name, photo, achievements, studyInfo, shortIntro } = props;
+  const { name, photo, achievements, studyInfo, shortIntro , linkedin } = props;
 
   return (
     <div className="bg-white rounded-lg shadow-lg p-4 m-2 md:m-4 lg:m-6 flex flex-col md:flex-row">
@@ -31,6 +32,19 @@ const speakercard = (props) => {
           <h3 className="text-lg font-medium mb-2">Short Introduction</h3>
           <p>{shortIntro}</p>
         </div>
+
+        <br></br>
+        <a
+            href={linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-500 hover:text-red-600 mr-2"
+          >
+            <FaLinkedin size={24} /> {/* LinkedIn Icon from react-icons */}
+          </a>
+        
+
+        
       </div>
     </div>
   );
