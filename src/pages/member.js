@@ -24,7 +24,7 @@ const TeamMemberInfo = ({ name, position, linkedin, twitter, imgSrc }) => {
             href={linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-red-500 hover:text-red-600 "
+            className="text-red-500 hover:text-red-600 mr-2"
           >
             <FaLinkedin size={24} /> {/* LinkedIn Icon from react-icons */}
           </a>
