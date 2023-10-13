@@ -65,7 +65,7 @@ const Navigation = () => {
             alt="TedxWCE Logo"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            {"| 21st Nov '23"}
+            {"| 21st Oct '23"}
           </span>
         </Link>
         <button
