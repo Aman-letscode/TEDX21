@@ -30,15 +30,13 @@ const Footer = () => {
         <div className="w-full sm:w-1/2 md:w-1/3">
           <div className="mb-2 font-bold">Social Media</div>
           <div className="flex items-center">
-            <a href="#" className="mr-2">
+            <a href="https://www.linkedin.com/company/tedxwce-sangli/" target="_blank" className="mr-2">
               <FaLinkedin className="text-white" />
             </a>
-            <a href="#" className="mr-2">
+            <a href="https://www.instagram.com/tedx_wce_sangli/" className="mr-2">
               <FaInstagram className="text-white" />
             </a>
-            <a href="#">
-              <FaTwitter className="text-white" />
-            </a>
+            
           </div>
         </div>
       </div>
