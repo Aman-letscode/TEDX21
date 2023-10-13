@@ -8,64 +8,53 @@ const Team = () => {
           Meet our Core Team
         </p>
         <p className="text-base text-gray-700 md:text-lg">
-          "Meet our Core Team: Passionate, Creative, and Driven to Inspire Positive Change."
+          "Meet our Core Team: Passionate, Creative, and Driven to Inspire
+          Positive Change."
         </p>
       </div>
 
-     
+      <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row flex-wrap gap-6 justify-center ">
+        <TeamMemberInfo
+          name="Sakshi Deshmukh"
+          position="Organiser and Licensee"
+          linkedin="https://www.linkedin.com/in/johndoe"
+          twitter="https://twitter.com/johndoe"
+          imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034910/TedXFILES/hw9pvmnballpt4v2ds7u.jpg"
+          
+        />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2  gap-6 justify-items-center ">
-      
-      <TeamMemberInfo
-  name="Sakshi Deshmukh"
-  position="Licensee and Organiser"
-  linkedin="https://www.linkedin.com/in/johndoe"
-  twitter="https://twitter.com/johndoe"
-  imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034910/TedXFILES/hw9pvmnballpt4v2ds7u.jpg"
-/>
-   
+        <TeamMemberInfo
+          name="Pratap Shingane"
+          position="Organiser"
+          linkedin="https://www.linkedin.com/in/johndoe"
+          twitter="https://twitter.com/johndoe"
+          imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034918/TedXFILES/sby83l5wtdvu0lm7wnqd.jpg"
+        />
 
-<TeamMemberInfo
-  name="Pratap Shingane"
-  position="Organiser"
-  linkedin="https://www.linkedin.com/in/johndoe"
-  twitter="https://twitter.com/johndoe"
-  imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034918/TedXFILES/sby83l5wtdvu0lm7wnqd.jpg"
-/>
+        <TeamMemberInfo
+          name="Swayam Hingane"
+          position="Co-organiser"
+          linkedin="https://www.linkedin.com/in/johndoe"
+          twitter="https://twitter.com/johndoe"
+          imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034927/TedXFILES/kfq2bdd35zcajmuljwkq.jpg"
+        />
 
+        <TeamMemberInfo
+          name="Dr. Anil Surve"
+          position="Associate Dean  "
+          linkedin="https://www.linkedin.com/in/johndoe"
+          twitter="https://twitter.com/johndoe"
+          imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034939/TedXFILES/attmwrp0cdqtplvyrzug.jpg"
+        />
 
-<TeamMemberInfo
-  name="Swayambhu Hingane"
-  position="Outreach Lead"
-  linkedin="https://www.linkedin.com/in/johndoe"
-  twitter="https://twitter.com/johndoe"
-  imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034927/TedXFILES/kfq2bdd35zcajmuljwkq.jpg"
-/>
-
-
-
-<TeamMemberInfo
-  name="Anil Surve"
-  position="Associate Dean (Student Activity and Development)"
-  linkedin="https://www.linkedin.com/in/johndoe"
-  twitter="https://twitter.com/johndoe"
-  imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034939/TedXFILES/attmwrp0cdqtplvyrzug.jpg"
-/>
-
-<TeamMemberInfo
-  name="Sanjay Dhaygude"
-  position="Dean (Corporate Relations, Alumni and Student Carriers)"
-  linkedin="https://www.linkedin.com/in/johndoe"
-  twitter="https://twitter.com/johndoe"
-  imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034945/TedXFILES/e700bp6cnjtvwoskllmb.jpg"
-/>
-
-
-
-    
+        <TeamMemberInfo
+          name="Prof. Sanjay Dhaygude"
+          position="Dean Of WCE"
+          linkedin="https://www.linkedin.com/in/johndoe"
+          twitter="https://twitter.com/johndoe"
+          imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034945/TedXFILES/e700bp6cnjtvwoskllmb.jpg"
+        />
       </div>
-
-     
     </div>
   );
 };
