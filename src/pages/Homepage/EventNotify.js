@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Notify = () => {
   const [isBannerOpen, setIsBannerOpen] = useState(true);
@@ -15,10 +16,18 @@ const Notify = () => {
           tabIndex="-1"
           className="fixed bottom-0 left-0 z-50 flex justify-between w-full p-4 border-t border-gray-200 bg-black text-white dark:bg-black dark:text-white dark:border-gray-600"
         >
-          {/* Your banner content here */}
-          TEDXWCESangli is going to held on 21st October, 2023, Register Today.
-          <div className="flex items-center mx-auto">{/* ... */}</div>
+          <div className="flex-grow">
+            {/* Your banner content here */}
+            TEDXWCESangli is going to be held on{" "}
+            <span color="red">21st October, 2023.</span>
+          </div>
           <div className="flex items-center">
+            <Link
+              to="/registration"
+              className="block py-2 pl-3 pr-4 text-white rounded bg-red-600   "
+            >
+              Register
+            </Link>
             <button
               onClick={closeBanner}
               type="button"
