@@ -29,7 +29,7 @@ const Tickets = () => {
               </p>
               <a
                 href="https://forms.gle/2pVe6L9cvSL2xKNo7"
-                 className="ml-2  block py-2 pl-3 pr-4  rounded  text-white bg-red-600 font-semibold "
+                 className="ml-2  block py-2 pl-3 pr-4  rounded  text-white bg-red-600 font-semibold align-center"
               >
                 Register Now
               </a>
@@ -55,7 +55,7 @@ const Tickets = () => {
               </p>
               <a
                 href="https://forms.gle/tiWJjU13DycnAtN17"
-                 className="ml-2  block py-2 pl-3 pr-4  rounded  text-white bg-red-600 font-semibold "
+                 className="ml-2  block py-2 pl-3 pr-4  rounded  text-white bg-red-600 font-semibold conntent-center"
               >
                 Register Now
               </a>
