@@ -15,28 +15,35 @@ const Tickets = () => {
 
 
         {/* First Offer Card */}
-        <div className="bg-white border-2 border-black p-4 rounded-md shadow-md flex flex-col sm:flex-row justify-around items-center m-2">
-          <p className="text-gray-700 text-2xl line-through">
-            Price of Ticket: 799
-          </p>
-          <div className="flex flex-col sm:flex-row items-center">
-            <p className="block py-2 pl-3 pr-4 text-red-500 rounded  text-3xl font-bold">
-              Special Offer: 499
+        <div className="bg-white p-4  border-2 border-black rounded-md shadow-md mt-4 sm:mt-0 sm:ml-4 m-2">
+          <h1 className="text-black text-3xl font-semibold mb-4 sm:mb-0">
+            For Spectators
+          </h1>
+          <div className="bg-balck p-4 rounded-md  flex flex-col sm:flex-row justify-around items-center">
+            <p className="text-gray-700 text-2xl line-through">
+              Price of Ticket: 799
             </p>
-            <a
-              href="https://forms.gle/2pVe6L9cvSL2xKNo7"
-              className="ml-2  block py-2 pl-3 pr-4  rounded  text-white bg-red-600 font-semibold "
-            >
-              Register Now
+            <div className="flex flex-col sm:flex-row items-center">
+              <p className="block py-2 pl-3 pr-4 text-red-500  text-3xl font-bold mt-4 sm:mt-0 sm:ml-4">
+                Special Offer: 499
+              </p>
+              <a
+                href="https://forms.gle/2pVe6L9cvSL2xKNo7"
+                 className="ml-2  block py-2 pl-3 pr-4  rounded  text-white bg-red-600 font-semibold "
+              >
+                Register Now
+              </a>
              
-            </a>
+            </div>
+            
           </div>
+          
         </div>
 
         {/* Second Offer Card */}
         <div className="bg-white p-4  border-2 border-black rounded-md shadow-md mt-4 sm:mt-0 sm:ml-4 m-2">
           <h1 className="text-black text-3xl font-semibold mb-4 sm:mb-0">
-            Special Offer for WCE Students
+            For WCE Students
           </h1>
           <div className="bg-balck p-4 rounded-md  flex flex-col sm:flex-row justify-around items-center">
             <p className="text-gray-700 text-2xl line-through">
@@ -52,8 +59,11 @@ const Tickets = () => {
               >
                 Register Now
               </a>
+             
             </div>
+            
           </div>
+          <p>only access through your college Email</p>
         </div>
       </div>
 
