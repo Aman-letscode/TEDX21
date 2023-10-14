@@ -6,7 +6,7 @@ const Tickets = () => {
       {/* Header */}
       <div className="bg-white text-black p-4  rounded-md shadow-lg">
         <h1 className="text-3xl font-bold">
-          Register Now !! Only 100 seats available
+          Register Now !! Only 200 seats available
         </h1>
       </div>
 
