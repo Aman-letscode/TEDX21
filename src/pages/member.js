@@ -16,7 +16,7 @@ const TeamMemberInfo = ({ name, position, linkedin, twitter, imgSrc }) => {
       {/* Team Member Info */}
       <div className="ml-4">
         <h2 className="text-xl md:text-2xl font-semibold">{name}</h2>
-        <p className="text-gray-600 break-words text-lg md:text-xl " style="word-wrap: normal">{position}</p>
+        <p className="text-gray-600 break-words text-lg md:text-xl ">{position}</p>
         
         {/* Social Media Links */}
         <div className="mt-2">
