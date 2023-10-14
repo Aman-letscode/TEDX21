@@ -17,9 +17,9 @@ const TeamMemberInfo = ({ name, position, field, linkedin, twitter, imgSrc }) =>
       <div className="ml-4">
         <h2 className="text-xl md:text-2xl font-semibold">{name}</h2>
         
-        <p className="text-gray-600 text-lg md:text-xl flex-wrap">{position}</p>
-        <br />
-        <p className="text-gray-600 text-lg md:text-xl flex-wrap">{field}</p>
+        <p className="text-gray-600 text-lg md:text-xl">{position}</p>
+        
+        <p className="text-gray-600 text-lg md:text-xl ">{field}</p>
         
         
         
