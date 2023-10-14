@@ -47,7 +47,7 @@ const Tickets = () => {
                 Special Offer: 349
               </p>
               <a
-                href=""
+                href="https://forms.gle/tiWJjU13DycnAtN17"
                  className="ml-2  block py-2 pl-3 pr-4  rounded  text-white bg-red-600 font-semibold "
               >
                 Register Now
