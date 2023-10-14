@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 
-const TeamMemberInfo = ({ name, position, linkedin, twitter, imgSrc }) => {
+const TeamMemberInfo = ({ name, position, field, linkedin, twitter, imgSrc }) => {
   return (
     <div className="flex items-center m-4">
       {/* Team Member Image */}
@@ -16,7 +16,12 @@ const TeamMemberInfo = ({ name, position, linkedin, twitter, imgSrc }) => {
       {/* Team Member Info */}
       <div className="ml-4">
         <h2 className="text-xl md:text-2xl font-semibold">{name}</h2>
+        
         <p className="text-gray-600 text-lg md:text-xl">{position}</p>
+        
+        <p className="text-gray-600 text-lg md:text-xl ">{field}</p>
+        
+        
         
         {/* Social Media Links */}
         <div className="mt-2">
