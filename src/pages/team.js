@@ -41,7 +41,8 @@ const Team = () => {
 
         <TeamMemberInfo
           name="Dr. Anil Surve"
-          position="Associate Dean (Student Activity And Development)"
+          position="Associate Dean"
+          field="(Student Activity And Development)"
           linkedin="https://www.linkedin.com/in/johndoe"
           twitter="https://twitter.com/johndoe"
           imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034939/TedXFILES/attmwrp0cdqtplvyrzug.jpg"
