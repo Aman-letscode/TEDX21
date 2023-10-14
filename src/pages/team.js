@@ -41,19 +41,13 @@ const Team = () => {
 
         <TeamMemberInfo
           name="Dr. Anil Surve"
-          position="Associate Dean  "
+          position="Associate Dean (Student Activity And Development)"
           linkedin="https://www.linkedin.com/in/johndoe"
           twitter="https://twitter.com/johndoe"
           imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034939/TedXFILES/attmwrp0cdqtplvyrzug.jpg"
         />
 
-        <TeamMemberInfo
-          name="Prof. Sanjay Dhaygude"
-          position="Dean Of WCE"
-          linkedin="https://www.linkedin.com/in/johndoe"
-          twitter="https://twitter.com/johndoe"
-          imgSrc="https://res.cloudinary.com/dpok16gsr/image/upload/v1697034945/TedXFILES/e700bp6cnjtvwoskllmb.jpg"
-        />
+        
       </div>
     </div>
   );
