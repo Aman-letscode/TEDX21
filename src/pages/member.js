@@ -16,11 +16,11 @@ const TeamMemberInfo = ({ name, position, field, linkedin, twitter, imgSrc }) =>
       {/* Team Member Info */}
       <div className="ml-4">
         <h2 className="text-xl md:text-2xl font-semibold">{name}</h2>
-        <div className="flex">
+        
         <p className="text-gray-600 text-lg md:text-xl flex-wrap">{position}</p>
         <br>
         <p className="text-gray-600 text-lg md:text-xl flex-wrap">{field}</p>
-        </div>
+        
         
         
         {/* Social Media Links */}
