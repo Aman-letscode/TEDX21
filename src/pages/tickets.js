@@ -72,7 +72,7 @@ const Tickets = () => {
         <header className="text-2xl font-bold text-black">
           What You Will Receive
         </header>
-        <ul className="list-disc pl-4 mt-2 text-black">
+        <ul className="list-disc pl-4 mt-2 text-black ml-3">
           <li>TedX Hamper</li>
           <li>Meal</li>
           <li>Ultimate Knowledge Experience, Let's meet on 21st Oct 2023</li>
