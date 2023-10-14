@@ -107,13 +107,13 @@ const Navigation = () => {
           <NavLink to="/">Home</NavLink>
         </li>
 
-        <li
+        {/* <li
           style={{ backgroundColor: getBackgroundColor('registration'), color: getTextColor('registration') }}
           onClick={() => handleItemClick('registration')}
           className="rounded p-2"
         >
           <NavLink to="/registration">Register</NavLink>
-        </li>
+        </li> */}
             
          <li
           style={{ backgroundColor: getBackgroundColor('teaminfo'), color: getTextColor('teaminfo') }}

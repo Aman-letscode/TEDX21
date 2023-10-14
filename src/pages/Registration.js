@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import axios from "axios"; // Import Axios
 import ComingSoon from "./coming";
-import Tickets from "./tickets";
+
 
 const Form = () => {
   const { register, handleSubmit } = useForm();
@@ -157,9 +157,9 @@ const Form = () => {
     
     // </div>
 
-    // <ComingSoon></ComingSoon>
+    <ComingSoon></ComingSoon>
 
-    <Tickets></Tickets>
+    
     
   );
 };

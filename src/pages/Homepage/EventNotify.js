@@ -22,12 +22,12 @@ const Notify = () => {
             <span color="red">21st October, 2023.</span>
           </div>
           <div className="flex items-center">
-            <Link
+            {/* <Link
               to="/registration"
               className="block py-2 pl-3 pr-4 text-white rounded bg-red-600   "
             >
               Register
-            </Link>
+            </Link> */}
             <button
               onClick={closeBanner}
               type="button"
