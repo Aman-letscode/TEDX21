@@ -2,7 +2,7 @@ import React from "react";
 
 const Tickets = () => {
   return (
-    <div className="container mx-auto py-8 bg-white" >
+    <div className="container mx-auto py-8 bg-white" id="tickets" >
       {/* Header */}
       <div className="bg-white text-black p-4  rounded-md shadow-lg">
         <h1 className="text-3xl font-bold">

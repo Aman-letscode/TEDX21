@@ -17,13 +17,22 @@ const Speakerinfo = () => {
         />
 
         <Speakercard
+          name="Shivangi Narula"
+          photo="https://res.cloudinary.com/dpok16gsr/image/upload/v1697368880/TedXFILES/hu9leixphosc4nectdws.png"
+          achievements="CEO and director Skilldify (Backed by IIM Bangalore) | IELTS Traier"
+          studyInfo=""
+          shortIntro="Content Creator | Instagram Influencer | Corporate Professional skill Development Coach"
+          linkedin="https://www.linkedin.com/in/shubhankarstoryteller/?originalSubdomain=in"
+        />
+
+        <Speakercard
           name="Vittal Ramakrishna"
           photo="https://res.cloudinary.com/dpok16gsr/image/upload/v1697105351/TedXFILES/kswrhwpsfjqwf0gweigq.jpg"
           achievements="Founder at POD, Kreate."
-          studyInfo="Ph.D. in Computer Science from XYZ University"
-          shortIntro="."
+          
+          shortIntro=" The growing internet penetration and interest of retail investors to look beyond conventional financial investment opportunities motivated the founding of POD."
           linkedin="https://www.linkedin.com/in/vittalramakrishna/?utm_source=share&utm_campaign=share_via&u"
-          study="studyInfo"
+          
         />
 
         <Speakercard
@@ -72,9 +81,6 @@ const Speakerinfo = () => {
                 1st Runner-Up ."
           linkedin="https://www.linkedin.com/in/shubhankarstoryteller/?originalSubdomain=in"
         />
-
-        
-
       </div>
     </div>
   );

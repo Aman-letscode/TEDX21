@@ -32,7 +32,7 @@ const EventSchedule = () => {
                     Event Starting
                   </h3>
                   <time className="text-xs tracking-wide uppercase dark:text-gray-400">
-                    12:00 AM - 21 October, 2023
+                    12:00 PM - 21 October, 2023
                   </time>
                   <p className="mt-3">{/* Add event details here */}</p>
                 </div>

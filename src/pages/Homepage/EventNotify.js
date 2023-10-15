@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, redirect } from "react-router-dom";
 
 const Notify = () => {
   const [isBannerOpen, setIsBannerOpen] = useState(true);
@@ -28,6 +28,10 @@ const Notify = () => {
             >
               Register
             </Link> */}
+
+            {/* <button className="block py-2 pl-3 pr-4 text-white rounded bg-red-600 " onClick={scrollToTickets}>
+              Register
+            </button> */}
             <button
               onClick={closeBanner}
               type="button"

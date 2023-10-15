@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
-
-  const [activeItem, setActiveItem] = useState('home');
+  const [activeItem, setActiveItem] = useState("home");
 
   // Function to handle click events and set the active item
   const handleItemClick = (item) => {
@@ -15,13 +14,13 @@ const Navigation = () => {
   // Define a function to determine the background color for each list item
   const getBackgroundColor = (item) => {
     // Check if the item is active, set the background color to 'blue', otherwise 'transparent'
-    return activeItem === item ? 'red' : 'transparent';
+    return activeItem === item ? "red" : "transparent";
   };
 
   // Define a function to determine the text color for each list item
   const getTextColor = (item) => {
     // Check if the item is active, set the text color to 'white', otherwise 'black'
-    return activeItem === item ? 'white' : 'white';
+    return activeItem === item ? "white" : "white";
   };
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -58,7 +57,7 @@ const Navigation = () => {
       className=" text-white bg-zinc-900 dark:text-white border-gray-200"
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link to="/" className="flex items-center" >
+        <Link to="/" className="flex items-center">
           <img
             src="https://i.ibb.co/cQ74yqz/logo-white.png"
             className="h-8 mr-2"
@@ -99,40 +98,46 @@ const Navigation = () => {
           id="navbar-default"
         >
           <ul className="w-auto flex flex-wrap max-w-max space-x-4 gap-x-4 mx-auto py-4 justify-items-end">
-           <li
-          style={{ backgroundColor: getBackgroundColor('home'), color: getTextColor('home') }}
-          onClick={() => handleItemClick('home')}
-          className="rounded p-2"
-           >
-          <NavLink to="/">Home</NavLink>
-        </li>
+            <li
+              style={{
+                backgroundColor: getBackgroundColor("home"),
+                color: getTextColor("home"),
+              }}
+              onClick={() => handleItemClick("home")}
+              className="rounded p-2"
+            >
+              <NavLink to="/">Home</NavLink>
+            </li>
 
-        {/* <li
+            {/* <li
           style={{ backgroundColor: getBackgroundColor('registration'), color: getTextColor('registration') }}
           onClick={() => handleItemClick('registration')}
           className="rounded p-2"
         >
           <NavLink to="/registration">Register</NavLink>
         </li> */}
-            
-         <li
-          style={{ backgroundColor: getBackgroundColor('teaminfo'), color: getTextColor('teaminfo') }}
-          onClick={() => handleItemClick('teaminfo')}
-          className="rounded p-2"
-        >
-          <NavLink to="/team">Team</NavLink>
-        </li>
 
-         <li
-          style={{ backgroundColor: getBackgroundColor('speakerinfo'), color: getTextColor('speakerinfo') }}
-          onClick={() => handleItemClick('speakerinfo')}
-          className="rounded p-2"
-        >
-          <NavLink to="/speaker">Speakers</NavLink>
-        </li>     
+            <li
+              style={{
+                backgroundColor: getBackgroundColor("speakerinfo"),
+                color: getTextColor("speakerinfo"),
+              }}
+              onClick={() => handleItemClick("speakerinfo")}
+              className="rounded p-2"
+            >
+              <NavLink to="/speaker">Speakers</NavLink>
+            </li>
 
-
-          
+            <li
+              style={{
+                backgroundColor: getBackgroundColor("teaminfo"),
+                color: getTextColor("teaminfo"),
+              }}
+              onClick={() => handleItemClick("teaminfo")}
+              className="rounded p-2"
+            >
+              <NavLink to="/team">Team</NavLink>
+            </li>
           </ul>
         </div>
       </div>
