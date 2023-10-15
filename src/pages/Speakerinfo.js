@@ -22,7 +22,7 @@ const Speakerinfo = () => {
           achievements="CEO and director Skilldify (Backed by IIM Bangalore) | IELTS Traier"
           studyInfo=""
           shortIntro="Content Creator | Instagram Influencer | Corporate Professional skill Development Coach"
-          linkedin="https://www.linkedin.com/in/shubhankarstoryteller/?originalSubdomain=in"
+          linkedin="https://www.linkedin.com/in/shivanginarula/"
         />
 
         <Speakercard
@@ -49,7 +49,7 @@ const Speakerinfo = () => {
           achievements="Motivational Speaker | Microbiologist | 6 time-TEDxSpeaker | Body positivity advocate | Founder & director: Silver Linings Organization"
           studyInfo=""
           shortIntro="a renowned speaker, known for 27 influential appearances, 5 TEDx talks, and a passion for empowering youth and advocating important causes."
-          linkedin="https://www.linkedin.com/in/cosmoakshat?utm_source=share&utm_campaign=share_via&utm_"
+          linkedin="https://www.linkedin.com/in/nikita-sharma-9a2a99167/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         />
 
         <Speakercard
@@ -77,7 +77,7 @@ const Speakerinfo = () => {
           studyInfo=""
           shortIntro="Polar Explorer | Karmaveer Chakra Awardee | Mrs. India Global
                 1st Runner-Up ."
-          linkedin="https://www.linkedin.com/in/shubhankarstoryteller/?originalSubdomain=in"
+          linkedin="https://www.linkedin.com/in/avaniawasthee/"
         />
       </div>
     </div>
