@@ -9,11 +9,11 @@ const Speakerinfo = () => {
         <Speakercard
           name="Atul Juvle"
           photo="https://res.cloudinary.com/dpok16gsr/image/upload/v1697107353/TedXFILES/zqm5jikselvrlmjqokac.jpg"
-          achievements="Independent Director- GC-Legal Consulting /secondment - Investigations."
+          achievements="ForbesIndia-Legitquest accredited GC-Independent Director"
           studyInfo="University Of Mumbai(LL.B, M.com, Finance, Corporate Laws, Civil & criminal laws), JBIMS(MMS, Finance), IIM ahmedabad and more"
           shortIntro="3.5 decades of enabling sustaining business operations / strategic decisions/ projects in legally compliant manner."
           linkedin="https://www.linkedin.com/in/atul-juvle-b955b717?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-          study="studyInfo"
+          study="Education"
         />
 
         <Speakercard
@@ -29,10 +29,8 @@ const Speakerinfo = () => {
           name="Vittal Ramakrishna"
           photo="https://res.cloudinary.com/dpok16gsr/image/upload/v1697105351/TedXFILES/kswrhwpsfjqwf0gweigq.jpg"
           achievements="Founder at POD, Kreate."
-          
-          shortIntro=" The growing internet penetration and interest of retail investors to look beyond conventional financial investment opportunities motivated the founding of POD."
+          shortIntro="A serial entrepreneur with a successful exit and 14+ years of global experience in Investment Management and Alternative Funding."
           linkedin="https://www.linkedin.com/in/vittalramakrishna/?utm_source=share&utm_campaign=share_via&u"
-          
         />
 
         <Speakercard
@@ -42,7 +40,7 @@ const Speakerinfo = () => {
           studyInfo="Project PoSSUM advance PoSSUM Academy graduate"
           shortIntro="TEDX GateWay Speaker | Analog Astrounaut| Entrepreneur"
           linkedin="https://www.linkedin.com/in/cosmoakshat?utm_source=share&utm_campaign=share_via&utm_"
-          study="studyInfo"
+          study="Education"
         />
 
         <Speakercard
@@ -59,7 +57,7 @@ const Speakerinfo = () => {
           photo="https://res.cloudinary.com/dpok16gsr/image/upload/v1697278441/TedXFILES/be3ybwovrdwp2pxgrl1g.jpg"
           achievements="CO-FOUNDER OF GOPAISA.COM"
           studyInfo=""
-          shortIntro="a renowned speaker, known for 27 influential appearances, 5 TEDx talks, and a passion for empowering youth and advocating important causes."
+          shortIntro="Exuberant, dynamic, youthful and versatile; a mix of all these virtues is what Ankita Jain is made of. She presently works as the Co-Founder & Marketing Head of GoPaisa.com."
           linkedin="https://in.linkedin.com/in/ankita-jain-89b21887"
         />
 
@@ -68,7 +66,7 @@ const Speakerinfo = () => {
           photo="https://res.cloudinary.com/dpok16gsr/image/upload/v1697278442/TedXFILES/vomz6nr3kra7kwnbywlh.jpg"
           achievements="FOUNDER OF 1PERCENTCOACH"
           studyInfo=""
-          shortIntro="a renowned speaker, known for 27 influential appearances, 5 TEDx talks, and a passion for empowering youth and advocating important causes."
+          shortIntro="Shubhankar is an AI COACHING STRATEGIST, a BRAND STORYTELLER, and the Founder of Storycult and MagnifqueU - India’s first AI-based coaching agency based in Bangalore to help coaches, trainers, and thought leaders to build a PREMIUM and PROFITABLE coaching brand around their STORY."
           linkedin="https://www.linkedin.com/in/shubhankarstoryteller/?originalSubdomain=in"
         />
 
