@@ -25,7 +25,7 @@ const Tickets = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center">
               <p className="block py-2 pl-3 pr-4 text-red-500  text-3xl font-bold mt-4 sm:mt-0 sm:ml-4">
-                Special Offer: 499
+                Special Offer: 399
               </p>
               <a
                 href="https://forms.gle/2pVe6L9cvSL2xKNo7"
